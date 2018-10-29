@@ -1,0 +1,85 @@
+<html>
+	<head>
+	
+	<title>Eggs</title>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+
+	</head>
+	<body bgcolor="FFFFFF">
+		<!-- Tab links -->
+Eggs: <span id="eggs">10</span>
+<button onclick="sell()" type="button" >Sell</button>
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; Money: <span id="money">0</span>
+
+<!-- <div class="alert"> -->
+  <!-- <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  -->
+  <!-- This is an alert box. -->
+<!-- </div> -->
+
+<div class="achievement">
+    <span class="circle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="logo"></span>
+    </span>
+    
+  
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Eggs')">Eggs</button>
+  <button class="tablinks" onclick="openCity(event, 'Chickens')">Chickens</button>
+  <button class="tablinks" onclick="openCity(event, 'Hatcheries')">Hatcheries</button>
+  <button class="tablinks" onclick="openCity(event, 'Factories')">Factories</button>
+  <button class="tablinks" onclick="openCity(event, 'Achievements')">Achievements</button>
+</div>
+
+
+<!-- Tab content -->
+<div id="Eggs" class="tabcontent">
+  Number of Eggs: <span id="eggs2">10</span>
+  </br>
+  Number of Eggs per sec: <span id="eggspersec">0</span>/s  
+  
+  
+</div>
+
+<div id="Chickens" class="tabcontent">
+  <button onclick="buyChicken()">Buy Chicken</button>
+  <br/>
+  Chickens: <span id="chickens">0</span>
+  <br/>
+  Chicken Cost: <span id="chickenCost">5</span>
+</div>
+
+<div id="Hatcheries" class="tabcontent">
+  <button onclick="buyHatchery()">Buy Hatchery</button>
+  <br/>
+  Hatcheries: <span id="hatcheries">0</span>
+  <br/>
+  Hatchery Cost: <span id="hatcheryCost">500</span>
+</div>
+
+<div id="Factories" class="tabcontent">
+  <button onclick="buyFactory()">Buy Factory</button>
+  <br/>
+  Factories: <span id="factories">0</span>
+  <br/>
+  Factory Cost: <span id="factoryCost">50000</span>
+</div>
+
+<div id="Achievements" class="tabcontent">
+ <div class="container">
+  <img src="Sell-1.jpg" alt="Avatar" class="image" id="Sell-1" >
+  
+
+
+
+
+
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
